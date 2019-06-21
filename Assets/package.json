@@ -9,10 +9,7 @@
     "url": "https://me.monry.dev/",
     "email": "monry84@gmail.com"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://monry.mit-license.org"
-  },
+  "license": "MIT",
   "keywords": [],
   "category": "",
   "dependencies": {
