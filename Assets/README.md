@@ -8,7 +8,7 @@ Publish and receive some instances what spawned after resolving phase.
 upm add package dev.monry.upm.zenject-instancebroker
 ```
 
-Note: [`upm`](https://github.com/upm-packages/upm) command is command line interface for Unity Package Manager
+Note: `upm` ([GitHub](https://github.com/upm-packages/upm)) is command line interface for Unity Package Manager
 
 ## Usages
 
