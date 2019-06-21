@@ -1,0 +1,26 @@
+{
+  "name": "dev.monry.upm.zenject-instancebroker",
+  "displayName": "Zenject InstanceBroker",
+  "version": "0.0.1",
+  "unity": "2019.1",
+  "description": "Notify spawned instance for Zenject",
+  "author": {
+    "name": "Tetsuya Mori",
+    "url": "https://me.monry.dev/",
+    "email": "monry84@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://monry.mit-license.org"
+  },
+  "keywords": [],
+  "category": "",
+  "dependencies": {
+    "com.stevevermeulen.extenject": "9.0.0",
+    "jp.cysharp.unirx": "7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monry/Zenject-InstanceBroker"
+  }
+}
