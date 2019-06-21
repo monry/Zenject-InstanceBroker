@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2019-06-22
+
+### Fixed
+
+- Fixed link to upm command repository in README.md
+
 ## [1.0.0] - 2019-06-22
 
 - Initial release :tada:
