@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] - 2019-06-21
+## [1.0.0] - 2019-06-22
 
 - Initial release :tada:
 
