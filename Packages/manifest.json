@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.stevevermeulen.extenject": "9.0.0",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.3.2",
     "com.unity.collab-proxy": "1.2.16",
@@ -7,6 +8,7 @@
     "com.unity.purchasing": "2.0.6",
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.0.0",
+    "jp.cysharp.unirx": "7.1.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -36,9 +38,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.stevevermeulen.extenject": "9.0.0",
-    "jp.cysharp.unirx": "7.0.0"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
