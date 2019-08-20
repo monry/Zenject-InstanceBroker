@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.4] - 2019-08-20
+
+### Fixes
+
+- Support Unity 2019.2
+
+### Changes
+
+- Rename Tests directories
+
+## [1.0.3] - 2019-07-12
+
+### Fixes
+
+- Follow upgrades in `package.json`
+
+## [1.0.2] - 2019-07-12
+
+### Upgrade Dependencies
+
+- Upgrade UniRx to v7.1.0
+
 ## [1.0.1] - 2019-06-22
 
 ### Fixed
