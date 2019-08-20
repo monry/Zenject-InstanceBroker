@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.5] - 2019-08-20
+
+### Features
+
+- Annotate `AddComponentMenu`: `Zenject > ZenjectInstancePublisher`
+
 ## [1.0.4] - 2019-08-20
 
 ### Fixes
