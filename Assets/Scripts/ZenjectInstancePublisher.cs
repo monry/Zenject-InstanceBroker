@@ -6,6 +6,7 @@ using UnityEngine;
 namespace Zenject
 {
     [RequireComponent(typeof(ZenjectBinding))]
+    [AddComponentMenu("Zenject/ZenjectInstancePublisher", 100)]
     public class ZenjectInstancePublisher : MonoBehaviour
     {
         private ZenjectBinding cachedZenjectBinding;
