@@ -1,8 +1,8 @@
 {
-  "name": "dev.monry.upm.zenject-instancebroker",
+  "name": "dev.monry.zenject-instancebroker",
   "displayName": "Zenject InstanceBroker",
-  "version": "1.0.3",
-  "unity": "2019.1",
+  "version": "1.0.4",
+  "unity": "2019.2",
   "description": "Notify spawned instance for Zenject",
   "author": {
     "name": "Tetsuya Mori",
