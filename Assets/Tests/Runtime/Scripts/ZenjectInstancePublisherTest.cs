@@ -59,17 +59,17 @@ namespace Zenject
             Container
                 .Bind<Publisher>()
                 .WithId("Self")
-                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/PlayMode/Prefabs/SelfPublisher.prefab"))
+                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/Runtime/Prefabs/SelfPublisher.prefab"))
                 .AsCached();
             Container
                 .Bind<IPublisher>()
                 .WithId("Interface")
-                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/PlayMode/Prefabs/InterfacePublisher.prefab"))
+                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/Runtime/Prefabs/InterfacePublisher.prefab"))
                 .AsCached();
             Container
                 .Bind(typeof(Publisher), typeof(IPublisher))
                 .WithId("InterfaceAndSelf")
-                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/PlayMode/Prefabs/InterfaceAndSelfPublisher.prefab"))
+                .FromComponentInNewPrefab(AssetDatabase.LoadAssetAtPath<Publisher>("Assets/Tests/Runtime/Prefabs/InterfaceAndSelfPublisher.prefab"))
                 .AsCached();
 
             var receiver = Container.Resolve<IReceiver>();
