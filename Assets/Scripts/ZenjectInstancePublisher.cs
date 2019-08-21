@@ -14,11 +14,6 @@ namespace Zenject
 
         [Inject] private DiContainer Container { get; }
 
-        private void Start()
-        {
-            Debug.Log(Container);
-        }
-
         [Inject]
         private void Initialize()
         {
