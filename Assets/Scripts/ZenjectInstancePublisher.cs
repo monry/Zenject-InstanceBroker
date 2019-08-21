@@ -53,6 +53,24 @@ namespace Zenject
 
         private void InvokePublish(Type type, object instance)
         {
+            if (
+                !(bool) Container
+                    .GetType()
+                    .GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .First(
+                        mi =>
+                            mi.MemberType == MemberTypes.Method
+                            && mi.Name == "HasBinding"
+                            && mi.IsGenericMethodDefinition
+                            && mi.GetParameters().Length == 0
+                    )
+                    .MakeGenericMethod(typeof(IInstancePublisher<>).MakeGenericType(type))
+                    .Invoke(Container, null)
+            )
+            {
+                return;
+            }
+
             var instancePublisher = Container
                 .GetType()
                 .GetMethods(BindingFlags.Public | BindingFlags.Instance)
