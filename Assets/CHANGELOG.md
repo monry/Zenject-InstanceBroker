@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.6] - 2019-08-21
+
+### Improvements
+
+- Ignore publish if signals has not been declared
+
+### Fixes
+
+- Fix prefab path in runtime tests
+- Remove unnecessary log
+
 ## [1.0.5] - 2019-08-20
 
 ### Features
