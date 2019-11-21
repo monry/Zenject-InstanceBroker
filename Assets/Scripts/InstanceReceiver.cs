@@ -7,11 +7,11 @@ namespace Zenject
     public class InstanceReceiver<T> : IInstanceReceiver<T>
     {
         [UsedImplicitly]
-        private InstanceReceiver() : this(new ReplaySubject<T>())
+        public InstanceReceiver() : this(new ReplaySubject<T>())
         {
         }
 
-        private InstanceReceiver(ISubject<T> subject)
+        public InstanceReceiver(ISubject<T> subject)
         {
             Subject = subject;
         }
